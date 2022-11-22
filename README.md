@@ -56,6 +56,7 @@ git clone https://github.com/jvanosdol/react-portfolio
 
 This portfolio shows off previous projects made throughout the bootcamp.
 
+The user may click on the project image and is directed to the live project's site.
 
 ## Deployed Page
 
