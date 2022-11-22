@@ -12,13 +12,9 @@ function ProjectDisplay() {
         <div className="project">
             <h1> {project.name}</h1>
 
-
-            <h2>Click on the project to be redirected to the live site!</h2>
             <a href={project.link}><img src={project.image}/></a>
 
-
-
-            
+            <h2>Click on the project to be redirected to the live site!</h2>
             <p>
                 <b>Skills:</b> {project.skills}
             </p>
