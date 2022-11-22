@@ -41,8 +41,8 @@ git clone https://github.com/jvanosdol/react-portfolio
 - Portfolio Screenshots
 
 
-  ![screenshot](/images/portfolio-main.png)
-  ![screenshot](/images/portfolio-projects.png)
+  ![screenshot](./images/portfolio-main.png)
+  ![screenshot](./images/portfolio-projects.png)
 
 
 
