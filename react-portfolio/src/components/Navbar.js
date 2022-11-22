@@ -1,21 +1,33 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import '../styles/navbar.css'
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import "../styles/navbar.css";
 
 function Navbar() {
-  return (
-    <div className='navbar'>
+  const [expandNavbar, setExpandNavbar] = useState(false);
 
-        <div className='toggleButton'>
-            <button></button>
-        </div>
-        <div className='links'>
-            <Link to ='/'>Home</Link>
-            <Link to ='/projects'>Projects</Link>
-            <Link to ='/experience'>Experience</Link>
-        </div>
+  const location = useLocation();
+
+  useEffect(() => {
+    setExpandNavbar(false);
+  }, [location]);
+
+  return (
+    <div className="navbar" id={expandNavbar ? "open" : "close"}>
+      <div className="toggleButton">
+        <button
+          onClick={() => {
+            setExpandNavbar((prev) => !prev);
+          }}
+        >
+        </button>
+      </div>
+      <div className="links">
+        <Link to="/"> Home </Link>
+        <Link to="/projects"> Projects </Link>
+        <Link to="/aboutme"> About Me </Link>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

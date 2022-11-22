@@ -1,19 +1,13 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
-import "../styles/Home.css";
+import "../styles/home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2> My name is James</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <p>A Full-Stack Web Development Student</p>
         </div>
       </div>
       <div className="skills">
@@ -22,20 +16,20 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Angular, Redux, HTML, CSS, React Native, NPM,
+             BootStrap, MaterialUI, TailwindCSS, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+              NodeJS, ExpressJS, GraphQL, ApolloServer,
+              MySQL, MongoDB, DigitalOcean, SQL
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>JavaScript</span>
           </li>
         </ol>
       </div>
