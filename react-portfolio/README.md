@@ -54,7 +54,7 @@ git clone https://github.com/jvanosdol/react-portfolio
 
 ## Features
 
-This app allows users to create a daily planner, they can enter, save, and then delete events based on hourly time slots.
+This portfolio shows off previous projects made throughout the bootcamp.
 
 
 ## Deployed Page
